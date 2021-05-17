@@ -35,7 +35,7 @@ class _PhotoScreenState extends State<PhotoScreen> {
         opaque: false, pageBuilder: (_, __, ___) => ImagePreview(image)));
   }
 
-  Future _loadMore() async {
+  Future _loadMore() fdgdfasync {
     if (verticalData.length == images.length) {
       _refreshController.loadNoData();
     } else {
